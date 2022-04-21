@@ -13,7 +13,7 @@ Player* Player::MainPlayer = nullptr;
 
 
 Player::Player()
-	: Speed_(25.0f)
+	: Speed_(40.0f)
 	, MoveDir(float4::ZERO)
 	, PlayerAnim(nullptr)
 	, RightNum(0)
@@ -44,10 +44,10 @@ bool Player::IsMoveKey()
 
 void Player::Start()
 {
-	SetPosition(GameEngineWindow::GetScale().Half());
+	SetPosition({370,620});
 	SetScale({ 5, 5 });
 
-	baba = CreateRendererToScale("baba.bmp", {25,25});
+	baba = CreateRendererToScale("baba.bmp", {40,40});
 	baba->CreateAnimation("baba.bmp", "Idle_Right", 0, 2, 0.25f, true);
 	baba->CreateAnimation("baba.bmp", "MoveRight_1", 3, 5, 0.25f, true);
 	baba->CreateAnimation("baba.bmp", "MoveRight_2", 6, 8, 0.25f, true);

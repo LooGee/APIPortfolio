@@ -20,6 +20,7 @@ public:
 public:
 	GameEngineRendererTileMap* tileMap;
 
+	GameEngineActor* Object;
 protected:
 
 	void Loading() override;

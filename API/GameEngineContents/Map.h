@@ -23,8 +23,6 @@ public:
 
 	GameEngineRenderer* WorldBackGround;
 
-	GameEngineRendererTileMap* GetWorld;
-	
 
 protected:
 	void Start() override;

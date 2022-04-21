@@ -19,12 +19,11 @@ Menu::~Menu()
 
 void Menu::Loading() 
 {
+	float x = 30;
+	float y = 30;
 	
 	CreateActor<Map>();
-
 	CreateActor<Player>();
-	
-	CreateActor<MapData>();
 
 	GameEngineSound::SoundPlayControl("menu.mp3");
 	
