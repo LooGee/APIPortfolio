@@ -1,8 +1,10 @@
 #pragma once
 #include <GameEngine/GameEngineLevel.h>
+#include<GameEngine/GameEngineActor.h>
+#include <GameEngine/GameEngineRenderer.h>
 
 // Ό³Έν :
-class Level_4 : public GameEngineLevel
+class Level_4 : public GameEngineActor
 {
 public:
 	// constrcuter destructer
@@ -15,10 +17,15 @@ public:
 	Level_4& operator=(const Level_4& _Other) = delete;
 	Level_4& operator=(Level_4&& _Other) noexcept = delete;
 
-protected:
 
-	void Loading() override;
-	void Update() override;
+public:
+
+	GameEngineRenderer* Level;
+
+protected:
+	void Start() override;
+
+	void Render() override;
 
 private:
 

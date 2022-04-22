@@ -41,6 +41,54 @@
     <ClCompile Include="MapData.cpp">
       <Filter>Map</Filter>
     </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Skull.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Baba.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Defeat.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Is.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Push.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Skull_T.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Stop.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Water_T.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Win.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="You.cpp">
+      <Filter>TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_Block.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Babaisyou.h" />
@@ -80,6 +128,54 @@
     <ClInclude Include="MapData.h">
       <Filter>Map</Filter>
     </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Skull.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Baba.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Defeat.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Is.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Push.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Skull_T.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Stop.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Water_T.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Win.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="You.h">
+      <Filter>TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_Block.h">
+      <Filter>Map</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Level">
@@ -99,6 +195,12 @@
     </Filter>
     <Filter Include="Map">
       <UniqueIdentifier>{cd82154b-1470-4a17-b710-3d828bf9cce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextBlock">
+      <UniqueIdentifier>{d424d8d7-7659-470a-a12f-57b407da165b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{a115b893-06be-4bcc-b7fa-35849eeb038e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

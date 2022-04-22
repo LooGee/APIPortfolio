@@ -17,22 +17,18 @@ Level_3::~Level_3()
 {
 }
 
-void Level_3::Loading()
+void Level_3::Start()
 {
 
-	CreateActor<TitleBackGround>(0, "TitleLogo");
-
-	CreateActor<TitleLogo>(1, "TitleLogo");
-
-	GameEngineSound::SoundPlayControl("menu.mp3");
+	Level = CreateRendererToScale("Select_Ui.bmp", { 40, 40 });
+	Level->CreateAnimation("Select_Ui.bmp", "UI_move", 0, 2, 0.25f, true);
+	Level->ChangeAnimation("UI_move");
 
 }
 
-void Level_3::Update()
+
+
+void Level_3::Render()
 {
-	if (true == GameEngineInput::GetInst()->IsDown("Exit"))
-	{
-		//환경설정 ui띄우기
-	}
 
 }

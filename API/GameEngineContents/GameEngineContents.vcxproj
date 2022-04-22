@@ -154,15 +154,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Baba.h" />
+    <ClInclude Include="Defeat.h" />
     <ClInclude Include="EndingCredit.h">
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="Flag.h" />
+    <ClInclude Include="Is.h" />
     <ClInclude Include="Level_1.h" />
     <ClInclude Include="Level_2.h" />
     <ClInclude Include="Level_3.h" />
     <ClInclude Include="Level_4.h" />
     <ClInclude Include="Level_5.h" />
+    <ClInclude Include="Level_Block.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="MapData.h" />
     <ClInclude Include="Player.h">
@@ -173,6 +178,12 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="Push.h" />
+    <ClInclude Include="Rock.h" />
+    <ClInclude Include="Skull.h" />
+    <ClInclude Include="Skull_T.h" />
+    <ClInclude Include="Stop.h" />
+    <ClInclude Include="Tile.h" />
     <ClInclude Include="TitleBackGround.h" />
     <ClInclude Include="Menu.h">
       <SubType>
@@ -182,17 +193,27 @@
       <SubType>
       </SubType>
     </ClInclude>
+    <ClInclude Include="Wall.h" />
+    <ClInclude Include="Water.h" />
+    <ClInclude Include="Water_T.h" />
+    <ClInclude Include="Win.h" />
+    <ClInclude Include="You.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Baba.cpp" />
+    <ClCompile Include="Defeat.cpp" />
     <ClCompile Include="EndingCredit.cpp">
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Flag.cpp" />
+    <ClCompile Include="Is.cpp" />
     <ClCompile Include="Level_1.cpp" />
     <ClCompile Include="Level_2.cpp" />
     <ClCompile Include="Level_3.cpp" />
     <ClCompile Include="Level_4.cpp" />
     <ClCompile Include="Level_5.cpp" />
+    <ClCompile Include="Level_Block.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="MapData.cpp" />
     <ClCompile Include="Player.cpp">
@@ -204,6 +225,12 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="Player_State.cpp" />
+    <ClCompile Include="Push.cpp" />
+    <ClCompile Include="Rock.cpp" />
+    <ClCompile Include="Skull.cpp" />
+    <ClCompile Include="Skull_T.cpp" />
+    <ClCompile Include="Stop.cpp" />
+    <ClCompile Include="Tile.cpp" />
     <ClCompile Include="TitleBackGround.cpp" />
     <ClCompile Include="Menu.cpp">
       <SubType>
@@ -213,6 +240,11 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="Water.cpp" />
+    <ClCompile Include="Water_T.cpp" />
+    <ClCompile Include="Win.cpp" />
+    <ClCompile Include="You.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GameEngineBase\GameEngineBase.vcxproj">

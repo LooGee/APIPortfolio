@@ -161,6 +161,11 @@ void Babaisyou::GameInit()
 	GameEngineImage* Object_block = GameEngineImageManager::GetInst()->Find("Object_block.bmp");
 	Object_block->Cut({ 24, 24 }, "y");
 
+	GameEngineImage* Select_Ui = GameEngineImageManager::GetInst()->Find("Select_Ui.bmp");
+	Select_Ui->Cut({ 32, 32}, "y");
+
+
+
 	
 
 	

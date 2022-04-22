@@ -1,6 +1,5 @@
 #include "Level_1.h"
-#include "TitleLogo.h"
-#include "TitleBackGround.h"
+
 #include <GameEngineBase/GameEngineInput.h>
 #include <GameEngine/GameEngine.h>
 #include <GameEngine/GameEngineLevel.h>
@@ -17,24 +16,16 @@ Level_1::~Level_1()
 {
 }
 
-void Level_1::Loading()
+void Level_1::Start()
 {
-
-	CreateActor<TitleBackGround>(0, "TitleLogo");
-
-	CreateActor<TitleLogo>(1, "TitleLogo");
-
-	GameEngineSound::SoundPlayControl("menu.mp3");
-	
+	Level = CreateRendererToScale("Select_Ui.bmp", { 40, 40 });
+	Level->CreateAnimation("Select_Ui.bmp", "UI_move", 0, 2, 0.25f, true);
+	Level->ChangeAnimation("UI_move");
 	
 
 }
 
-void Level_1::Update()
+void Level_1::Render()
 {
-	if (true == GameEngineInput::GetInst()->IsDown("Exit"))
-	{
-		//환경설정 ui띄우기
-	}
-
+	
 }

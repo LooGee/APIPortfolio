@@ -21,6 +21,9 @@ public:
 	GameEngineRendererTileMap* tileMap;
 
 	GameEngineActor* Object;
+
+	GameEngineActor* Level;
+
 protected:
 
 	void Loading() override;

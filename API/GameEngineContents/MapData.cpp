@@ -25,6 +25,13 @@ void MapData::Start()
 
 void MapData::LoadMapObject(const std::string& _MapName)
 {
+
+	//맵 이름 받아와서
+	//맵 배열 받아서 크기 확인후
+	//타일 갯수에 맞춰서 중앙에 배치하기
+	//TileData enum 이용해서 같은 내용인지 확인하고
+	//맞다면 creatActor이용해서 생성하기
+
 	char MapTile_[Level_0_Width][Level_0_Height];
 
 	for (int x = 0; x < Level_0_Width; x++)
@@ -33,6 +40,7 @@ void MapData::LoadMapObject(const std::string& _MapName)
 		{
 			const int InTile = MapTile_[x][y];
 
+			
 			if (Level_0_Width % 2 != 0)
 			{
 			  float z =  (WindowScale_X / 2) - (Level_0_Width / 2 * TileSize);
